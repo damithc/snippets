@@ -1,5 +1,7 @@
 # Snippets
 
+![Snippets icon](docs/images/snippets-icon.png)
+
 Snippets is a small desktop library for information you want to find again:
 shortcuts, commands, setup notes, and other useful fragments.
 
@@ -11,6 +13,7 @@ This first prototype has a focused workflow:
 
 The app stores its local library in `data/snippets.txt`. That folder is ignored
 by Git, so your personal notes are not added to the repository accidentally.
+The index-card icon is used in the app header and as the desktop window icon.
 
 ## Set up in IntelliJ
 

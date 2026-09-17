@@ -17,3 +17,5 @@
 4. Restart the app. Confirm that the saved snippet remains available.
 5. Delete a selected snippet and confirm the deletion in the dialog. Restart
    the app and confirm that it does not reappear.
+6. Confirm that the index-card icon appears beside the Snippets heading and as
+   the desktop window icon.

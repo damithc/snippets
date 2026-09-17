@@ -21,6 +21,10 @@
     -fx-text-fill: #c8d3e4;
 }
 
+.app-icon {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.18), 6, 0.2, 0, 1);
+}
+
 .search-bar {
     -fx-background-color: #ffffff;
     -fx-border-color: #e3e8f1;
