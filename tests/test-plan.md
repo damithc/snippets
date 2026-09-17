@@ -19,3 +19,6 @@
    the app and confirm that it does not reappear.
 6. Confirm that the index-card icon appears beside the Snippets heading and as
    the desktop window icon.
+7. Build the release artifact with `./gradlew shadowJar`, then start it with
+   `java -jar build/libs/snippets.jar`. Confirm that the app opens without an
+   FXML or resource-loading error.

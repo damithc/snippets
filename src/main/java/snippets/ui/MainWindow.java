@@ -13,6 +13,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import snippets.model.Snippet;
 import snippets.storage.SnippetLibrary;
 
@@ -20,6 +22,9 @@ import snippets.storage.SnippetLibrary;
  * Controls search, selection, and editing in Snippets' main window.
  */
 public class MainWindow {
+    @FXML
+    private ImageView appIcon;
+
     @FXML
     private TextField searchField;
 
@@ -52,6 +57,7 @@ public class MainWindow {
     /** Configures search, result cards, and selection handling after FXML injection. */
     @FXML
     public void initialize() {
+        appIcon.setImage(new Image(MainWindow.class.getResourceAsStream("/images/snippets-icon.png")));
         snippetList.setItems(filteredSnippets);
         snippetList.setCellFactory(list -> new SnippetCell());
         snippetList.getSelectionModel().selectedItemProperty().addListener((observable, oldSnippet, newSnippet) -> {
