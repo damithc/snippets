@@ -7,6 +7,9 @@
 /.gradle/
 /build/
 
+# Jekyll build cache
+/.sass-cache/
+
 # macOS metadata
 .DS_Store
 
