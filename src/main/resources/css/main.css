@@ -1,0 +1,173 @@
+/* Calm, high-contrast styling for a library that is used in short bursts. */
+.root {
+    -fx-background-color: #f7f8fc;
+    -fx-font-family: "Helvetica Neue", "Helvetica", "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+}
+
+.workspace-header {
+    -fx-background-color: #172033;
+    -fx-padding: 18px 28px;
+}
+
+.workspace-title {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.workspace-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #c8d3e4;
+}
+
+.search-bar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e3e8f1;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 14px 28px;
+}
+
+.search-label, .section-title, .field-label, .snippet-card-tags {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #62708a;
+}
+
+.text-field, .text-area {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8px;
+    -fx-border-color: #d7dfeb;
+    -fx-border-radius: 8px;
+    -fx-padding: 0 12px;
+    -fx-text-fill: #172033;
+    -fx-prompt-text-fill: #8490a5;
+}
+
+.text-area {
+    -fx-padding: 8px;
+}
+
+.text-area .content {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 6px;
+}
+
+.text-field:focused, .text-area:focused {
+    -fx-border-color: #4668df;
+    -fx-effect: dropshadow(gaussian, rgba(70, 104, 223, 0.16), 8, 0.2, 0, 1);
+}
+
+.button {
+    -fx-background-color: #4668df;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.button:hover {
+    -fx-background-color: #3555c1;
+}
+
+.new-button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #172033;
+}
+
+.new-button:hover {
+    -fx-background-color: #e9efff;
+}
+
+.secondary-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #62708a;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #edf1f7;
+}
+
+.library-pane {
+    -fx-background-color: #f0f3f8;
+    -fx-border-color: #e0e6ef;
+    -fx-border-width: 0 1px 0 0;
+}
+
+.pane-heading {
+    -fx-padding: 18px 20px 12px 20px;
+}
+
+.result-count, .editor-hint, .status-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #7a879d;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 0 10px 10px 10px;
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-pref-width: 10px;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 0 0 8px 0;
+}
+
+.list-cell:filled:selected .snippet-card {
+    -fx-background-color: #e4eaff;
+    -fx-border-color: #aebfff;
+}
+
+.list-cell:filled:hover .snippet-card {
+    -fx-border-color: #bfcbe8;
+}
+
+.snippet-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 9px;
+    -fx-border-color: #e0e6ef;
+    -fx-border-radius: 9px;
+    -fx-padding: 12px;
+}
+
+.snippet-card-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #202b42;
+}
+
+.snippet-card-tags {
+    -fx-font-size: 10px;
+    -fx-text-fill: #586ed0;
+}
+
+.snippet-card-preview {
+    -fx-font-size: 12px;
+    -fx-text-fill: #637089;
+}
+
+.editor-pane {
+    -fx-background-color: #ffffff;
+    -fx-padding: 24px 30px;
+}
+
+.danger-button {
+    -fx-background-color: transparent;
+    -fx-border-color: #e5b7be;
+    -fx-border-radius: 8px;
+    -fx-text-fill: #b23c4a;
+}
+
+.danger-button:hover {
+    -fx-background-color: #fff0f2;
+}
+
+.danger-button:disabled {
+    -fx-border-color: #e2e6ed;
+    -fx-text-fill: #a9b2c0;
+}

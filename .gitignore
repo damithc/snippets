@@ -1,0 +1,14 @@
+# IDEA files
+/.idea/
+/out/
+/*.iml
+
+# Gradle build files
+/.gradle/
+/build/
+
+# macOS metadata
+.DS_Store
+
+# Local application data
+/data/
